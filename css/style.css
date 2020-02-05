@@ -1,0 +1,164 @@
+body{color: white;background-color: black;}
+
+.heading{
+  font-family: 'Alex Brush';
+  margin-top: -50px;
+}
+.nav-pills .nav-item .nav-link img{width: 30px;
+height: 30px;
+display: none;}
+
+/* not active */
+.nav-pills .nav-item .nav-link:not(.active) {
+    color:#ffffff;
+}
+.nav-pills .nav-item .active img{ display: inline-block;}
+.nav-pills .nav-item :hover img{ display: inline-block;}
+.nav-pills .nav-item :hover{letter-spacing: 2px;}
+.nav-pills .nav-item .active{
+	background-color: black;
+    border-radius: 0;
+    border-bottom: 2px solid white;
+}
+
+
+.flex-column {
+            max-width:240px;
+        }
+        
+.flex-column img {
+            margin: 5px;
+        }
+        
+.scale:hover {
+            transform: scaleX(1.05);
+             
+        }
+@media only screen and (max-width: 1026px) {
+    #fadeshow1 {
+        display: none;
+    }
+}
+a {
+  text-decoration: none;
+}
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  background: steelblue;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 310px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background: black;
+}
+
+
+.product span {
+  font-weight: bold;
+}
+
+.
+.row .product:last-child {
+  margin-right: 0;
+}
+
+.product-add-to-cart {
+  overflow: hidden;
+  clear: both;
+  margin-top: 10px;
+}
+
+
+.add-to-cart {
+  float: right;
+}
+
+.shopping-cart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 20px;
+  background: #331f00;
+}
+
+.shopping-cart-head {
+  background: black;
+  color: white;
+  padding: 5px;
+}
+
+.shopping-cart,
+.shopping-cart-head {
+  border-radius: 0px;
+}
+
+.empty-cart-btn,
+.cart-checkout {
+  display: none;
+  
+}
+
+.empty-cart-btn {
+  margin-bottom: 5px;
+}
+
+.cart-checkout {
+  background: limegreen;
+}
+
+
+
+
+
+
+
+
+
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
